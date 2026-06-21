@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 16px;
+  resize: none;
+  transition: 0.3s;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    #ff6b6b,
+    #ff8e53
+  );
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+.result-box {
+  margin-top: 25px;
+  background: #1e293b;
+  color: #00ff88;
+  padding: 20px;
+  border-radius: 15px;
+  overflow-x: auto;
+}
+
+.result-box h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sql-code {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.7;
+}
